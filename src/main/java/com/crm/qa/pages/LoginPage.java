@@ -53,7 +53,6 @@ public class LoginPage extends TestBase {
 	
 	public HomePage login(String USERNAME, String PASSWORD)
 	{
-		driver.manage().timeouts().implicitlyWait(TestUtil.Page_Load_Timeout, TimeUnit.SECONDS);
 		username.sendKeys(USERNAME);
 		password.sendKeys(PASSWORD);
 		JavascriptExecutor js = (JavascriptExecutor)driver;

@@ -43,17 +43,15 @@ public class LoginPageTest extends TestBase
 		
 	}
 	@Test(priority=2)
-	public void loginTest()
+	public void loginTest() throws InterruptedException
 	{
+		Thread.sleep(3000);
 		homepage=loginpageobject.login(prop.getProperty("username"), prop.getProperty("password"));
-		
-	
 	}
 	
 	@AfterMethod
 	public void teaddown()
 	{
-
 		driver.quit();
 	}
 

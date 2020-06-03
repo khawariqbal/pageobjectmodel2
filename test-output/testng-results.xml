@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53500" started-at="2020-06-03T09:03:13Z" finished-at="2020-06-03T09:04:07Z">
+  <suite name="Default suite" duration-ms="35993" started-at="2020-06-03T09:21:43Z" finished-at="2020-06-03T09:22:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53500" started-at="2020-06-03T09:03:13Z" finished-at="2020-06-03T09:04:07Z">
+    <test name="Default test" duration-ms="35993" started-at="2020-06-03T09:21:43Z" finished-at="2020-06-03T09:22:19Z">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="27788" started-at="2020-06-03T09:03:13Z" finished-at="2020-06-03T09:03:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="14147" started-at="2020-06-03T09:21:43Z" finished-at="2020-06-03T09:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crmLogoImageTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="crmLogoImageTest" duration-ms="224" started-at="2020-06-03T09:03:41Z" finished-at="2020-06-03T09:03:41Z">
+        <test-method status="PASS" signature="crmLogoImageTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="crmLogoImageTest" duration-ms="147" started-at="2020-06-03T09:21:57Z" finished-at="2020-06-03T09:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmLogoImageTest -->
-        <test-method status="PASS" signature="teaddown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="teaddown" is-config="true" duration-ms="1905" started-at="2020-06-03T09:03:41Z" finished-at="2020-06-03T09:03:43Z">
+        <test-method status="PASS" signature="teaddown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="teaddown" is-config="true" duration-ms="1698" started-at="2020-06-03T09:21:57Z" finished-at="2020-06-03T09:21:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaddown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="20287" started-at="2020-06-03T09:03:43Z" finished-at="2020-06-03T09:04:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="15202" started-at="2020-06-03T09:21:59Z" finished-at="2020-06-03T09:22:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="loginTest" duration-ms="1480" started-at="2020-06-03T09:04:04Z" finished-at="2020-06-03T09:04:05Z">
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="loginTest" duration-ms="3154" started-at="2020-06-03T09:22:14Z" finished-at="2020-06-03T09:22:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="teaddown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="teaddown" is-config="true" duration-ms="1759" started-at="2020-06-03T09:04:05Z" finished-at="2020-06-03T09:04:07Z">
+        <test-method status="PASS" signature="teaddown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@77cd7a0]" name="teaddown" is-config="true" duration-ms="1614" started-at="2020-06-03T09:22:17Z" finished-at="2020-06-03T09:22:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaddown -->
