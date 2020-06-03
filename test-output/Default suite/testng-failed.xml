@@ -5,6 +5,7 @@
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
+          <include name="crmLogoImageTest"/>
           <include name="setUp"/>
           <include name="loginTest"/>
           <include name="teaddown"/>

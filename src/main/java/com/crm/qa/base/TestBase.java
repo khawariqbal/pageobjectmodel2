@@ -26,8 +26,7 @@ public class TestBase {
 			prop=new Properties();
 
 			// Read properties file
-			FileInputStream propfile = new FileInputStream("C:\\Users\\Admin\\eclipse-workspace\\PageObjectModel\\src\\main\\java\\com\\crm\\"
-					+ "qa\\config\\config.properties");
+			FileInputStream propfile = new FileInputStream("/home/khawer/eclipse-workspace/PageObjectModel2/src/main/java/com/crm/qa/config/config.properties");
 
 			prop.load(propfile);
 		} 
@@ -53,12 +52,12 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\eclipse-workspace\\PageObjectModel\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "/home/khawer/eclipse-workspace/PageObjectModel2/chromedriver.exe");
 			driver=new ChromeDriver();
 		}
-		else if(browserName.equalsIgnoreCase("FF"))
+		else if(browserName.equalsIgnoreCase("ff"))
 		{
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\eclipse-workspace\\PageObjectModel\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "/home/khawer/eclipse-workspace/PageObjectModel2/geckodriver");
 			driver=new FirefoxDriver();
 		}
 
