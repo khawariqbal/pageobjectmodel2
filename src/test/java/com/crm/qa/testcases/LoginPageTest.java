@@ -17,7 +17,6 @@ public class LoginPageTest extends TestBase
 	// To call TestBase class constructor / Create constructor of LoginPageTest
 	public LoginPageTest()
 	{
-
 		super();
 	}
 
