@@ -45,9 +45,7 @@ public class LoginPage extends TestBase {
 	public boolean validateCRMLogo()
 	{
 		return crmLogo.isDisplayed();
-		
-		
-		
+	
 	}
 	
 	public HomePage login(String USERNAME, String PASSWORD)
