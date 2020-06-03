@@ -1,10 +1,13 @@
 package com.crm.qa.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.crm.qa.base.TestBase;
+import com.crm.qa.util.TestUtil;
 
 public class LoginPage extends TestBase {
 	
@@ -50,15 +53,11 @@ public class LoginPage extends TestBase {
 	
 	public HomePage login(String USERNAME, String PASSWORD)
 	{
+		driver.manage().timeouts().implicitlyWait(TestUtil.Page_Load_Timeout, TimeUnit.SECONDS);
 		username.sendKeys(USERNAME);
 		password.sendKeys(PASSWORD);
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-    	js.executeScript("arguments[0].click();", loginBtn);
-		
-		// after login , page is landing to home page =  it means Home Page is the landing page of login page. so it should be return type.
-		
-		
+    	js.executeScript("arguments[0].click();", loginBtn);		
 		return new HomePage();
 	}
-	
 }
